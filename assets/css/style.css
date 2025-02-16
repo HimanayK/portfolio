@@ -885,7 +885,7 @@ main {
   position: relative;
   margin-bottom: 25px;
 }
-
+/* Project category class, I removed this below class from button that is inside <div class="filter-select-box">, if you add it, it shows the search bar for projects in mobile size screen*/
 .filter-select {
   background: var(--eerie-black-2);
   color: var(--white-1); /*var(--light-gray);*/
