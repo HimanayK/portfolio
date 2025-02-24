@@ -1048,7 +1048,7 @@ main {
 
 .blog-post-item > a {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: vvar(--smoky-black); /*var(--border-gradient-onyx);*/
   height: 100%;
   box-shadow: var(--shadow-4);
   border-radius: 16px;
@@ -1060,7 +1060,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--eerie-black-1);
+  background: var(--smoky-black); /*var(--eerie-black-1);*/
   z-index: -1;
 }
 
@@ -1112,7 +1112,7 @@ main {
 .blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
 .blog-text {
-  color: var(--light-gray);
+  color: var(--orange-yellow-crayola); /*var(--light-gray);*/
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
